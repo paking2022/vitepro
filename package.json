@@ -1,0 +1,36 @@
+{
+  "name": "vitepro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "axios": "^1.6.3",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "pinia": "^2.1.7",
+    "postcss": "^8.4.32",
+    "postcss-px-to-viewport-8-plugin": "^1.2.3",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
